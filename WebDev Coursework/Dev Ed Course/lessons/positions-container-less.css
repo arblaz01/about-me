@@ -1,0 +1,74 @@
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+.container {
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  background: cadetblue;
+  position: relative;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 20%;
+  height: 20%;
+  background: purple;
+}
+
+/* Puts box in bottom-left corner. */
+.box1 {
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+}
+
+.box2 {
+  position: relative;
+  left: 20rem;
+  background: blue;
+}
+
+.box3 {
+  background: black;
+  position: sticky; /* When scrolling and time comes offscreen, it will become FIXED. Otherwise, relative. */
+  top: 0%;
+}
+
+/* Fixes a box to top of screen. Good for nav bar. */
+/* .box3 {
+  background: black;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+} */
+
+/* Puts the box in center of screen. */
+/* .box2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: blue;
+} */
+
+/* Moves box right-ward, distance equal to the size of itself. */
+/* .box3 {
+  background: black;
+  transform: translateX(100%);
+} */

@@ -1,0 +1,37 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+h1 {
+  background: grey;
+  height: 5rem;
+}
+
+/* a {
+  display: block;
+  background: red;
+  height: 5rem;
+  text-align: center;
+  padding-top: 2rem;
+} */
+
+a {
+  display: inline-block;
+  height: 20rem;
+  width: 20rem;
+  margin: 2rem;
+  padding: 2rem;
+  background: green;
+}
+
+img {
+  height: 15rem;
+  width: 15rem;
+}

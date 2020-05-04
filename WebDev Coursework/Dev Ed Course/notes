@@ -1,0 +1,9 @@
+css heirarchy:
+
+//#id
+>
+//.class
+>
+//h1,h2,ul html semantics, etc
+>
+//*all

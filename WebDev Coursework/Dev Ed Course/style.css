@@ -1,0 +1,66 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  /* margin: 0px; */
+  padding: 0px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  color: rgb(51, 21, 219);
+}
+
+ul > li {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.product {
+  font-style: italic;
+}
+
+.product-text {
+  color: red;
+}
+
+.purchase-form {
+  font-size: 1.5rem;
+}
+
+.purchase-form h1 {
+  color: pink;
+}
+
+.other-items + ul {
+  list-style: none;
+}
+
+.product-text + p {
+  color: blue;
+}
+
+.contact-us li:nth-child(3) {
+  color: pink;
+}
+
+#bb-link {
+  color: rgb(115, 128, 0);
+  font-size: 5rem;
+  font-style: normal;
+}
+
+button {
+  width: 30rem;
+  padding: 3rem 5rem;
+  border: 0.3rem solid rgba(0, 0, 0, 0.527);
+  border-radius: 1rem;
+  background-color: royalblue;
+  color: white;
+  font-size: 4rem;
+}

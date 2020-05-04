@@ -1,0 +1,42 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 2rem 4rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: green;
+}
+
+button:nth-child(2) {
+  background: red;
+}
+
+button:focus {
+  background: blue;
+}
+
+input:focus {
+  background: blue;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h1::before {
+  content: "me";
+}
+
+h1::after {
+  content: "me";
+}
